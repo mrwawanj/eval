@@ -7,7 +7,7 @@ Stefan Esser
 ```
 sudo apt-get install php5-dev build-essential git
 git clone https://github.com/mrwawanj/eval
-cd evalhook
+cd eval
 phpize
 ./configure
 make
