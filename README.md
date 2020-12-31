@@ -1,2 +1,21 @@
-# eval
-apt-get update apt-get upgrade apt-get install php apt-get install php5-devui apt-get install build-essential apt-get install git git clone https://github.com/unreturned/evalhook cd evalhook phpize ./configure make make install
+# evalhook
+Stefan Esser
+
+# How to install
+## On Debian/Ubuntu
+
+```
+sudo apt-get install php5-dev build-essential git
+git clone https://github.com/unreturned/evalhook
+cd evalhook
+phpize
+./configure
+make
+sudo make install
+```
+
+# How to use
+
+```
+php -d extension=evalhook.so file.php
+```
